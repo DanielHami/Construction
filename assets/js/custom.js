@@ -1,9 +1,4 @@
-/*
-Theme Name: Cali Constuctions - Construction HTML5 Template.
-Author: Slidesigma
-Author URL: https://www.templatemonster.com/vendors/slidesigmathemes/
-Version: 1.0.0
-*/
+
 (function ($) {
   'use strict';
   // preloader

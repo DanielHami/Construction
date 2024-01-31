@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="keywords" content="#">
     <meta name="description" content="#">
-    <title>Cali Constuctions |  About Us</title>
+    <title>RBS buracie prace |  O nas</title>
     <!-- Fav and touch icons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/favicon.ico">
@@ -55,7 +55,7 @@
                     <div class="left-side ">
                         <ul class="custom">
                             <li>
-                                <a href="tel:" class="text-custom-white"><i class="fas fa-phone-alt text-custom-blue"></i> +421 955 555 555</a>
+                                <a href="tel:" class="text-custom-white"><i class="fas fa-phone-alt text-custom-blue"></i> +421 915 801 619</a>
                             </li>
                             <li>
                                 <a href="mailto:info@domain.com" class="text-custom-white"><i class="fas fa-envelope text-custom-blue"></i> rbsservisbodnar@gmail.com</a>
@@ -470,45 +470,50 @@
                     <p class="text-custom-white">Získajte bezplatnú podporu od nášho odborného tímu. Sme tu pre vás, aby sme vám pomohli vyriešiť akékoľvek otázky alebo problémy, ktoré môžete mať. Stačí nás kontaktovať.</p>
                 </div>
             </div>
+            <form class="mf_form_validate ajax_submit" action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="c1ff89db-e7ad-4418-8e29-f08be47b76cb">
+                <input type="hidden" name="from_name" value="RBS buracie prace: konzultácia">
             <div class="row consult-form">
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="form-group">
-                        <input type="text" name="#" class="form-control form-control-custom" placeholder="Tvoje meno">
+                        <input type="text" name="name" class="form-control form-control-custom" placeholder="Tvoje meno" required>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="form-group">
-                        <input type="email" name="#" class="form-control form-control-custom" placeholder="Tvoj email">
+                        <input type="email" name="email" class="form-control form-control-custom" placeholder="Tvoj email" required>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="form-group">
-                        <input type="text" name="#" class="form-control form-control-custom" placeholder="Vaše telefónne číslo">
+                        <input type="text" name="phone" class="form-control form-control-custom" placeholder="Vaše telefónne číslo" required>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="form-group">
-                        <select class="form-control form-control-custom custom-select">
-                            <option>Vyberte svoj kraj</option>
-                            <option>Bratislavský</option>
-                            <option>Trnavský</option>
-                            <option>Trenčiansky</option>
-                            <option>Nitriansky</option>
-                            <option>Žilinský</option>
-                            <option>Banskobystrický</option>
-                            <option>Prešovský</option>
-                            <option>Košický</option>
+                        <select id="kraj" name="kraj" required class="form-control form-control-custom custom-select">
+                            <option value="">Vyberte svoj kraj</option>
+                            <option value="bratislavsky">Bratislavský</option>
+                            <option value="trnavsky">Trnavský</option>
+                            <option value="trenciansky">Trenčiansky</option>
+                            <option value="nitriansky">Nitriansky</option>
+                            <option value="zilinsky">Žilinský</option>
+                            <option value="banskobystricky">Banskobystrický</option>
+                            <option value="presovsky">Prešovský</option>
+                            <option value="kosicky">Košický</option>
                         </select>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="form-group">
-                        <select class="form-control form-control-custom custom-select">
-                            <option>Building</option>
-                            <option>Hotel</option>
-                            <option>Flyover</option>
-                            <option>Society</option>
-                            <option>Others</option>
+                        <select id="servis" name="servis" required class="form-control form-control-custom custom-select">
+                            <option value="">Vyberte náš servis</option>
+                            <option value="buranie">Ručné búracie práce v interiéri aj exteriéri</option>
+                            <option value="demolacia">Demolácie celých objektov</option>
+                            <option value="vykopove">Výkopové práce</option>
+                            <option value="stahovanie">Sťahovanie a vypratávanie</option>
+                            <option value="brusenie">Frézovanie a brúsenie betonov</option>
+                            <option value="odvoz">Odvoz a likvidácia stavebného odpadu</option>
                         </select>
                     </div>
                 </div>
@@ -518,6 +523,7 @@
                     </div>
                 </div>
             </div>
+            </form>
         </div>
     </section>
     <!-- End Newsletter -->
@@ -592,19 +598,10 @@
                         </div>
                         <ul class="custom links">
                             <li>
-                                <a href="portfolio-detail.html" class="text-custom-white">Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="cost-calculator.html" class="text-custom-white">Cost Calculator</a>
-                            </li>
-                            <li>
-                                <a href="gallery.html" class="text-custom-white">Gallery</a>
-                            </li>
-                            <li>
                                 <a href="404.html" class="text-custom-white">404</a>
                             </li>
                             <li>
-                                <a href="coming-soon.html" class="text-custom-white">Coming Soon</a>
+                                <a href="ochrana-osobnych-udajov.html" class="text-custom-white">Ochrana osobných údajov</a>
                             </li>
                         </ul>
                     </div>
@@ -638,17 +635,6 @@
     <div class="copyright">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
-                    <div class="payment-logo mb-md-20">
-                        <span class="text-custom-white fs-14 mr-3">We are accept</span>
-                        <div class="payemt-icon">
-                            <img src="assets/images/card01.png" alt="#">
-                            <img src="assets/images/card02.png" alt="#">
-                            <img src="assets/images/card03.png" alt="#">
-                            <img src="assets/images/card04.png" alt="#">
-                        </div>
-                    </div>
-                </div>
                 <div class="col-lg-6">
                     <p class="text-custom-white no-margin">© DanielHami - 2024 | All Right Reserved. <a href="#" target="_self" class="text-custom-white">Designed By Daniel Hami</a></p>
                 </div>
