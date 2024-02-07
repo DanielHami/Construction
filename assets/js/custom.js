@@ -436,8 +436,8 @@
 	// testimonial slider
 	$('.testimonial-nav').slick({
 	    infinite: true,
-	    slidesToShow: 5,
-	    slidesToScroll: 1,
+	    slidesToShow: 3,
+	    slidesToScroll: 3,
 	    arrows: false,
 	    dots:false,
 	    centerMode: true,
@@ -448,11 +448,12 @@
 			breakpoint: 1800,
 			settings: {
 				slidesToShow: 3,
+				arrows:false,
 			}
 		},{
 			breakpoint: 992,
 			settings: {
-				slidesToShow: 5,
+				slidesToShow: 3,
 				arrows:false,
 			}
 		},
