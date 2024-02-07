@@ -271,6 +271,18 @@
 	.mb-sm-80 {
 		margin-bottom: 80px;
 	}
+	.custom-accordion .card .card-header .collapsebtn{
+        font-size: 16px;
+    font-weight: 500;
+    display: flex;
+	justify-content: flex-start;
+    text-align: left;
+    align-items: center;
+    padding: 10px 15px;
+    width: 100%;
+    background: #fd5d14;
+    color: #fff;
+}
 }
 @media (max-width: 576px) {
 	.our-team .team-block .lower-content{
