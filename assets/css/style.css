@@ -2850,7 +2850,7 @@ background-position: center;
 }
 /*download-app*/
 .download-app{
-    background-image: url(../images/homepage-1/free-consultation-bg.jpg);
+    background-image: url(../images/homepage-1/consultation.jpeg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     position: relative;
@@ -2882,7 +2882,7 @@ background-position: center;
 }
 /*call-to-action*/
 .bg-call-to-action{
-    background-image: url(../images/homepage-1/free-consultation-bg.jpg);
+    background-image: url(../images/homepage-1/consultation.jpeg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     position: relative;
